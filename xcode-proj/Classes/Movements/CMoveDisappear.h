@@ -1,0 +1,21 @@
+//----------------------------------------------------------------------------------
+//
+// CMOVEDISAPPEAR : Mouvement disparition
+//
+//----------------------------------------------------------------------------------
+#import <Foundation/Foundation.h>
+#import "CMove.h"
+
+@class CObject;
+@class CMoveDef;
+
+@interface CMoveDisappear : CMove
+{
+
+}
+-(void)initMovement:(CObject*)ho withMoveDef:(CMoveDef*)mvPtr;
+-(void)move;
+-(void)setXPosition:(int)x;
+-(void)setYPosition:(int)y;
+
+@end
