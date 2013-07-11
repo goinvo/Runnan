@@ -1286,7 +1286,7 @@
 					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Moffitt (ZNYSR5N96U)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -1300,7 +1300,7 @@
 					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
 				);
 				PRODUCT_NAME = Runnan;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9D4BEF61-679B-4064-A870-A04D822B89B7";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1312,7 +1312,7 @@
 					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Moffitt (ZNYSR5N96U)";
 				COPY_PHASE_STRIP = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1325,7 +1325,7 @@
 					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
 				);
 				PRODUCT_NAME = Runnan;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9D4BEF61-679B-4064-A870-A04D822B89B7";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

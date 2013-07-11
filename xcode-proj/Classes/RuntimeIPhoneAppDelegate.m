@@ -40,7 +40,7 @@ void uncaughtExceptionHandler(NSException *exception)
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [TestFlight takeOff:@"88a57216-e75a-4bd8-82ee-a6259c720b3e"];
+    //[TestFlight takeOff:@"88a57216-e75a-4bd8-82ee-a6259c720b3e"];
     
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
 	[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];

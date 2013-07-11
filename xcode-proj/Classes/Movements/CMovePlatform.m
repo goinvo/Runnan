@@ -24,6 +24,8 @@
 #import "CColMask.h"
 #import "CObjInfo.h"
 
+#define SITE_URL @"http://mikejmoffitt.com"
+
 
 extern int Cosinus32[];
 extern int Sinus32[];
@@ -73,7 +75,23 @@ extern BOOL bMoveChanged;
 -(void)move
 {
 	int x, y;
-	
+    
+    
+    /* Okay, so the iOS runtime's ability to "Open URL" does not work. Here is my solution.
+     
+     This code is the handler for a sprite that is using the built-in "Platform movement".
+     I do not use this at all in my game because the platform movement is absolutely terrible.
+     However, I may exploit this. Whenever I want to open a URL, I will simply spawn a sprite
+     using "platform movement". As a result, this (void)move is called in order to handle the 
+     sprite. From here we will insert code that will open a URL.
+     
+     Therefore, to open the URL, I must simply spawn such a platformer sprite. this is definitely
+     a hack, but it will allow this to work until they fix the functionality of their poorly
+     written code for this runtime.
+     
+     */
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:SITE_URL]];
+     
 	hoPtr->hoAdRunHeader->rhVBLObjet = 1;
 	int joyDir = hoPtr->hoAdRunHeader->rhPlayer;				//; Lire le joystick
 	[self calcMBFoot];
