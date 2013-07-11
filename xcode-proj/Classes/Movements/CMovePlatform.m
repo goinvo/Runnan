@@ -24,7 +24,7 @@
 #import "CColMask.h"
 #import "CObjInfo.h"
 
-#define SITE_URL @"http://mikejmoffitt.com"
+#define SITE_URL @"http://runnanthegame.com"
 
 
 extern int Cosinus32[];
