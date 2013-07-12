@@ -1312,7 +1312,7 @@
 					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Moffitt (ZNYSR5N96U)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Moffitt (J7CLXQPTKF)";
 				COPY_PHASE_STRIP = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1325,7 +1325,7 @@
 					"\"$(SRCROOT)/TestFlightSDK1.2.6\"",
 				);
 				PRODUCT_NAME = Runnan;
-				PROVISIONING_PROFILE = "9D4BEF61-679B-4064-A870-A04D822B89B7";
+				PROVISIONING_PROFILE = "D1B23AE5-05D6-42F3-AC1B-2A6A89F57FAA";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
